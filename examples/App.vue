@@ -2,11 +2,11 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
     <section>
-      <cd-button>默认按钮</cd-button>
-      <cd-button type="primary">主要按钮</cd-button>
-      <cd-button type="success">成功按钮</cd-button>
-      <cd-button type="info">信息按钮</cd-button>
-      <cd-button type="warning">警告按钮</cd-button>
+      <cd-button @click="clickBtn">默认按钮</cd-button>
+      <cd-button type="primary" @click="clickBtn">主要按钮</cd-button>
+      <cd-button type="success" @click="clickBtn">成功按钮</cd-button>
+      <cd-button type="info" @click="clickBtn">信息按钮</cd-button>
+      <cd-button type="warning" @click="clickBtn">警告按钮</cd-button>
     </section>
     <br />
     <section>
@@ -44,7 +44,12 @@
 
 <script>
 export default {
-  name: "app"
+  name: "app",
+  methods: {
+    clickBtn(e) {
+      console.log(e);
+    }
+  }
 };
 </script>
 
