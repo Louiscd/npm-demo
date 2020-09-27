@@ -1,6 +1,6 @@
 {
   "name": "cd-ui-btn",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "private": false,
   "description": "基于 Vue 的button组件",
   "main": "lib/cd-ui-btn.umd.min.js",
