@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    [
+      "component",
+      {
+        "libraryName": "cd-ui-btn"
+      },
+      "cd-ui-btn"
+    ]
+  ]
+}
