@@ -1,9 +1,9 @@
 {
   "name": "cd-ui-btn",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "private": false,
   "description": "基于 Vue 的button组件",
-  "main": "lib/cd-ui-btn.common.js",
+  "main": "lib/cd-ui-btn.umd.js",
   "keyword": [
     "vue",
     "button"
